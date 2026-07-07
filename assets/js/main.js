@@ -75,10 +75,26 @@
       });
     }
 
+    // lazy-load slide backgrounds: only slide 1 ships in the HTML; the rest
+    // are assigned just-in-time (and their neighbours preloaded) so first paint
+    // downloads a single hero image instead of all of them.
+    function ensureBg(idx) {
+      var s = slides[(idx + slides.length) % slides.length];
+      if (s && s.dataset.bg) {
+        s.style.backgroundImage = "url('" + s.dataset.bg + "')";
+        s.removeAttribute('data-bg');
+      }
+    }
     function render() {
+      ensureBg(i); ensureBg(i + 1); ensureBg(i - 1);
       slides.forEach(function (s, idx) { s.classList.toggle('is-active', idx === i); });
       dots.forEach(function (d, idx) { d.classList.toggle('is-active', idx === i); });
     }
+    // after the page has loaded, quietly fill in any remaining slides so
+    // manual/keyboard navigation is instant.
+    window.addEventListener('load', function () {
+      setTimeout(function () { slides.forEach(function (_, idx) { ensureBg(idx); }); }, 1200);
+    });
     function go(n, manual) {
       i = (n + slides.length) % slides.length;
       render();
