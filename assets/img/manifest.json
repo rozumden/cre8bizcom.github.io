@@ -1,0 +1,554 @@
+{
+ "slideshow": {
+  "slideshow-1": {
+   "large": "assets/img/large/slideshow-1.jpg",
+   "med": "assets/img/med/slideshow-1.jpg",
+   "w": 3584,
+   "h": 2016,
+   "orient": "landscape"
+  },
+  "slideshow-10": {
+   "large": "assets/img/large/slideshow-10.jpg",
+   "med": "assets/img/med/slideshow-10.jpg",
+   "w": 960,
+   "h": 638,
+   "orient": "landscape"
+  },
+  "slideshow-11": {
+   "large": "assets/img/large/slideshow-11.jpg",
+   "med": "assets/img/med/slideshow-11.jpg",
+   "w": 2048,
+   "h": 1536,
+   "orient": "landscape"
+  },
+  "slideshow-13": {
+   "large": "assets/img/large/slideshow-13.jpg",
+   "med": "assets/img/med/slideshow-13.jpg",
+   "w": 2592,
+   "h": 1944,
+   "orient": "landscape"
+  },
+  "slideshow-14": {
+   "large": "assets/img/large/slideshow-14.jpg",
+   "med": "assets/img/med/slideshow-14.jpg",
+   "w": 2448,
+   "h": 3264,
+   "orient": "portrait"
+  },
+  "slideshow-15": {
+   "large": "assets/img/large/slideshow-15.jpg",
+   "med": "assets/img/med/slideshow-15.jpg",
+   "w": 960,
+   "h": 1280,
+   "orient": "portrait"
+  },
+  "slideshow-2": {
+   "large": "assets/img/large/slideshow-2.jpg",
+   "med": "assets/img/med/slideshow-2.jpg",
+   "w": 3584,
+   "h": 2016,
+   "orient": "landscape"
+  },
+  "slideshow-3": {
+   "large": "assets/img/large/slideshow-3.jpg",
+   "med": "assets/img/med/slideshow-3.jpg",
+   "w": 3872,
+   "h": 2592,
+   "orient": "landscape"
+  },
+  "slideshow-4": {
+   "large": "assets/img/large/slideshow-4.jpg",
+   "med": "assets/img/med/slideshow-4.jpg",
+   "w": 2560,
+   "h": 1920,
+   "orient": "landscape"
+  },
+  "slideshow-5": {
+   "large": "assets/img/large/slideshow-5.jpg",
+   "med": "assets/img/med/slideshow-5.jpg",
+   "w": 960,
+   "h": 640,
+   "orient": "landscape"
+  },
+  "slideshow-7": {
+   "large": "assets/img/large/slideshow-7.jpg",
+   "med": "assets/img/med/slideshow-7.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "slideshow-8": {
+   "large": "assets/img/large/slideshow-8.jpg",
+   "med": "assets/img/med/slideshow-8.jpg",
+   "w": 4032,
+   "h": 3016,
+   "orient": "landscape"
+  },
+  "slideshow-9": {
+   "large": "assets/img/large/slideshow-9.jpg",
+   "med": "assets/img/med/slideshow-9.jpg",
+   "w": 1024,
+   "h": 768,
+   "orient": "landscape"
+  }
+ },
+ "creative": {
+  "creative-1": {
+   "large": "assets/img/large/creative-1.jpg",
+   "med": "assets/img/med/creative-1.jpg",
+   "w": 1006,
+   "h": 1139,
+   "orient": "portrait"
+  },
+  "creative-10": {
+   "large": "assets/img/large/creative-10.jpg",
+   "med": "assets/img/med/creative-10.jpg",
+   "w": 414,
+   "h": 886,
+   "orient": "portrait"
+  },
+  "creative-11": {
+   "large": "assets/img/large/creative-11.jpg",
+   "med": "assets/img/med/creative-11.jpg",
+   "w": 1423,
+   "h": 819,
+   "orient": "landscape"
+  },
+  "creative-12": {
+   "large": "assets/img/large/creative-12.jpg",
+   "med": "assets/img/med/creative-12.jpg",
+   "w": 768,
+   "h": 741,
+   "orient": "square"
+  },
+  "creative-13": {
+   "large": "assets/img/large/creative-13.jpg",
+   "med": "assets/img/med/creative-13.jpg",
+   "w": 4032,
+   "h": 3016,
+   "orient": "landscape"
+  },
+  "creative-14": {
+   "large": "assets/img/large/creative-14.jpg",
+   "med": "assets/img/med/creative-14.jpg",
+   "w": 526,
+   "h": 169,
+   "orient": "landscape"
+  },
+  "creative-15": {
+   "large": "assets/img/large/creative-15.jpg",
+   "med": "assets/img/med/creative-15.jpg",
+   "w": 288,
+   "h": 333,
+   "orient": "portrait"
+  },
+  "creative-16": {
+   "large": "assets/img/large/creative-16.jpg",
+   "med": "assets/img/med/creative-16.jpg",
+   "w": 386,
+   "h": 583,
+   "orient": "portrait"
+  },
+  "creative-2": {
+   "large": "assets/img/large/creative-2.jpg",
+   "med": "assets/img/med/creative-2.jpg",
+   "w": 904,
+   "h": 863,
+   "orient": "square"
+  },
+  "creative-3": {
+   "large": "assets/img/large/creative-3.jpg",
+   "med": "assets/img/med/creative-3.jpg",
+   "w": 3016,
+   "h": 4032,
+   "orient": "portrait"
+  },
+  "creative-4": {
+   "large": "assets/img/large/creative-4.jpg",
+   "med": "assets/img/med/creative-4.jpg",
+   "w": 825,
+   "h": 986,
+   "orient": "portrait"
+  },
+  "creative-5": {
+   "large": "assets/img/large/creative-5.jpg",
+   "med": "assets/img/med/creative-5.jpg",
+   "w": 2168,
+   "h": 1200,
+   "orient": "landscape"
+  },
+  "creative-6": {
+   "large": "assets/img/large/creative-6.jpg",
+   "med": "assets/img/med/creative-6.jpg",
+   "w": 191,
+   "h": 199,
+   "orient": "square"
+  },
+  "creative-7": {
+   "large": "assets/img/large/creative-7.jpg",
+   "med": "assets/img/med/creative-7.jpg",
+   "w": 506,
+   "h": 404,
+   "orient": "landscape"
+  },
+  "creative-8": {
+   "large": "assets/img/large/creative-8.jpg",
+   "med": "assets/img/med/creative-8.jpg",
+   "w": 2344,
+   "h": 2824,
+   "orient": "portrait"
+  },
+  "creative-9": {
+   "large": "assets/img/large/creative-9.jpg",
+   "med": "assets/img/med/creative-9.jpg",
+   "w": 381,
+   "h": 263,
+   "orient": "landscape"
+  }
+ },
+ "rest": {
+  "rest-1b": {
+   "large": "assets/img/large/rest-1b.jpg",
+   "med": "assets/img/med/rest-1b.jpg",
+   "w": 1280,
+   "h": 960,
+   "orient": "landscape"
+  },
+  "rest-1": {
+   "large": "assets/img/large/rest-1.jpg",
+   "med": "assets/img/med/rest-1.jpg",
+   "w": 718,
+   "h": 960,
+   "orient": "portrait"
+  },
+  "rest-10": {
+   "large": "assets/img/large/rest-10.jpg",
+   "med": "assets/img/med/rest-10.jpg",
+   "w": 4032,
+   "h": 3016,
+   "orient": "landscape"
+  },
+  "rest-11": {
+   "large": "assets/img/large/rest-11.jpg",
+   "med": "assets/img/med/rest-11.jpg",
+   "w": 4032,
+   "h": 3016,
+   "orient": "landscape"
+  },
+  "rest-12": {
+   "large": "assets/img/large/rest-12.jpg",
+   "med": "assets/img/med/rest-12.jpg",
+   "w": 4032,
+   "h": 3016,
+   "orient": "landscape"
+  },
+  "rest-13": {
+   "large": "assets/img/large/rest-13.jpg",
+   "med": "assets/img/med/rest-13.jpg",
+   "w": 4160,
+   "h": 3120,
+   "orient": "landscape"
+  },
+  "rest-14": {
+   "large": "assets/img/large/rest-14.jpg",
+   "med": "assets/img/med/rest-14.jpg",
+   "w": 4160,
+   "h": 3120,
+   "orient": "landscape"
+  },
+  "rest-15": {
+   "large": "assets/img/large/rest-15.jpg",
+   "med": "assets/img/med/rest-15.jpg",
+   "w": 3120,
+   "h": 4160,
+   "orient": "portrait"
+  },
+  "rest-16": {
+   "large": "assets/img/large/rest-16.jpg",
+   "med": "assets/img/med/rest-16.jpg",
+   "w": 960,
+   "h": 638,
+   "orient": "landscape"
+  },
+  "rest-17": {
+   "large": "assets/img/large/rest-17.jpg",
+   "med": "assets/img/med/rest-17.jpg",
+   "w": 960,
+   "h": 638,
+   "orient": "landscape"
+  },
+  "rest-18": {
+   "large": "assets/img/large/rest-18.jpg",
+   "med": "assets/img/med/rest-18.jpg",
+   "w": 960,
+   "h": 638,
+   "orient": "landscape"
+  },
+  "rest-19": {
+   "large": "assets/img/large/rest-19.jpg",
+   "med": "assets/img/med/rest-19.jpg",
+   "w": 960,
+   "h": 638,
+   "orient": "landscape"
+  },
+  "rest-2b": {
+   "large": "assets/img/large/rest-2b.jpg",
+   "med": "assets/img/med/rest-2b.jpg",
+   "w": 1280,
+   "h": 849,
+   "orient": "landscape"
+  },
+  "rest-2": {
+   "large": "assets/img/large/rest-2.jpg",
+   "med": "assets/img/med/rest-2.jpg",
+   "w": 960,
+   "h": 553,
+   "orient": "landscape"
+  },
+  "rest-20": {
+   "large": "assets/img/large/rest-20.jpg",
+   "med": "assets/img/med/rest-20.jpg",
+   "w": 960,
+   "h": 638,
+   "orient": "landscape"
+  },
+  "rest-21": {
+   "large": "assets/img/large/rest-21.jpg",
+   "med": "assets/img/med/rest-21.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "rest-22": {
+   "large": "assets/img/large/rest-22.jpg",
+   "med": "assets/img/med/rest-22.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "rest-23": {
+   "large": "assets/img/large/rest-23.jpg",
+   "med": "assets/img/med/rest-23.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "rest-24": {
+   "large": "assets/img/large/rest-24.jpg",
+   "med": "assets/img/med/rest-24.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "rest-25": {
+   "large": "assets/img/large/rest-25.jpg",
+   "med": "assets/img/med/rest-25.jpg",
+   "w": 3872,
+   "h": 2592,
+   "orient": "landscape"
+  },
+  "rest-26": {
+   "large": "assets/img/large/rest-26.jpg",
+   "med": "assets/img/med/rest-26.jpg",
+   "w": 3872,
+   "h": 2592,
+   "orient": "landscape"
+  },
+  "rest-27": {
+   "large": "assets/img/large/rest-27.jpg",
+   "med": "assets/img/med/rest-27.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "rest-28": {
+   "large": "assets/img/large/rest-28.jpg",
+   "med": "assets/img/med/rest-28.jpg",
+   "w": 3584,
+   "h": 2016,
+   "orient": "landscape"
+  },
+  "rest-29": {
+   "large": "assets/img/large/rest-29.jpg",
+   "med": "assets/img/med/rest-29.jpg",
+   "w": 3584,
+   "h": 2016,
+   "orient": "landscape"
+  },
+  "rest-3": {
+   "large": "assets/img/large/rest-3.jpg",
+   "med": "assets/img/med/rest-3.jpg",
+   "w": 960,
+   "h": 640,
+   "orient": "landscape"
+  },
+  "rest-30": {
+   "large": "assets/img/large/rest-30.jpg",
+   "med": "assets/img/med/rest-30.jpg",
+   "w": 2048,
+   "h": 1536,
+   "orient": "landscape"
+  },
+  "rest-31": {
+   "large": "assets/img/large/rest-31.jpg",
+   "med": "assets/img/med/rest-31.jpg",
+   "w": 2592,
+   "h": 1944,
+   "orient": "landscape"
+  },
+  "rest-32": {
+   "large": "assets/img/large/rest-32.jpg",
+   "med": "assets/img/med/rest-32.jpg",
+   "w": 2048,
+   "h": 1536,
+   "orient": "landscape"
+  },
+  "rest-33": {
+   "large": "assets/img/large/rest-33.jpg",
+   "med": "assets/img/med/rest-33.jpg",
+   "w": 4000,
+   "h": 2256,
+   "orient": "landscape"
+  },
+  "rest-34": {
+   "large": "assets/img/large/rest-34.jpg",
+   "med": "assets/img/med/rest-34.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "rest-35": {
+   "large": "assets/img/large/rest-35.jpg",
+   "med": "assets/img/med/rest-35.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "rest-36": {
+   "large": "assets/img/large/rest-36.jpg",
+   "med": "assets/img/med/rest-36.jpg",
+   "w": 2592,
+   "h": 1944,
+   "orient": "landscape"
+  },
+  "rest-37": {
+   "large": "assets/img/large/rest-37.jpg",
+   "med": "assets/img/med/rest-37.jpg",
+   "w": 1280,
+   "h": 960,
+   "orient": "landscape"
+  },
+  "rest-38": {
+   "large": "assets/img/large/rest-38.jpg",
+   "med": "assets/img/med/rest-38.jpg",
+   "w": 480,
+   "h": 640,
+   "orient": "portrait"
+  },
+  "rest-39": {
+   "large": "assets/img/large/rest-39.jpg",
+   "med": "assets/img/med/rest-39.jpg",
+   "w": 1920,
+   "h": 2560,
+   "orient": "portrait"
+  },
+  "rest-4": {
+   "large": "assets/img/large/rest-4.jpg",
+   "med": "assets/img/med/rest-4.jpg",
+   "w": 960,
+   "h": 640,
+   "orient": "landscape"
+  },
+  "rest-40": {
+   "large": "assets/img/large/rest-40.jpg",
+   "med": "assets/img/med/rest-40.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "rest-41": {
+   "large": "assets/img/large/rest-41.jpg",
+   "med": "assets/img/med/rest-41.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "rest-42": {
+   "large": "assets/img/large/rest-42.jpg",
+   "med": "assets/img/med/rest-42.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "rest-43": {
+   "large": "assets/img/large/rest-43.jpg",
+   "med": "assets/img/med/rest-43.jpg",
+   "w": 2592,
+   "h": 3872,
+   "orient": "portrait"
+  },
+  "rest-44": {
+   "large": "assets/img/large/rest-44.jpg",
+   "med": "assets/img/med/rest-44.jpg",
+   "w": 3872,
+   "h": 2592,
+   "orient": "landscape"
+  },
+  "rest-45": {
+   "large": "assets/img/large/rest-45.jpg",
+   "med": "assets/img/med/rest-45.jpg",
+   "w": 3872,
+   "h": 2592,
+   "orient": "landscape"
+  },
+  "rest-46": {
+   "large": "assets/img/large/rest-46.jpg",
+   "med": "assets/img/med/rest-46.jpg",
+   "w": 1920,
+   "h": 1080,
+   "orient": "landscape"
+  },
+  "rest-47": {
+   "large": "assets/img/large/rest-47.jpg",
+   "med": "assets/img/med/rest-47.jpg",
+   "w": 852,
+   "h": 418,
+   "orient": "landscape"
+  },
+  "rest-5": {
+   "large": "assets/img/large/rest-5.jpg",
+   "med": "assets/img/med/rest-5.jpg",
+   "w": 960,
+   "h": 640,
+   "orient": "landscape"
+  },
+  "rest-6": {
+   "large": "assets/img/large/rest-6.jpg",
+   "med": "assets/img/med/rest-6.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "rest-7": {
+   "large": "assets/img/large/rest-7.jpg",
+   "med": "assets/img/med/rest-7.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "rest-8": {
+   "large": "assets/img/large/rest-8.jpg",
+   "med": "assets/img/med/rest-8.jpg",
+   "w": 3648,
+   "h": 2736,
+   "orient": "landscape"
+  },
+  "rest-9": {
+   "large": "assets/img/large/rest-9.jpg",
+   "med": "assets/img/med/rest-9.jpg",
+   "w": 4032,
+   "h": 3016,
+   "orient": "landscape"
+  }
+ }
+}
