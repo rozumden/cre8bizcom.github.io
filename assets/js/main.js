@@ -38,6 +38,20 @@
   var yr = document.getElementById('year');
   if (yr) yr.textContent = new Date().getFullYear();
 
+  /* Keep short articles with the noun they introduce at every viewport width. */
+  var articleWalker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+    acceptNode: function (node) {
+      var parent = node.parentElement;
+      return parent && !/^(SCRIPT|STYLE|TEXTAREA|OPTION)$/i.test(parent.tagName) &&
+        /\b(?:a|an)\s+[A-Za-z]/i.test(node.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+    }
+  });
+  var articleNodes = [], articleNode;
+  while ((articleNode = articleWalker.nextNode())) articleNodes.push(articleNode);
+  articleNodes.forEach(function (node) {
+    node.nodeValue = node.nodeValue.replace(/\b(a|an)\s+([A-Za-z][A-Za-z'’-]*)/gi, '$1\u00a0$2');
+  });
+
   /* ---------- Reveal on scroll ---------- */
   var revealEls = document.querySelectorAll('.reveal, .reveal-img');
   if (revealEls.length) {
@@ -186,20 +200,4 @@
     });
   }
 
-  /* ---------- Contact form (mailto compose) ---------- */
-  var form = document.querySelector('form.cform');
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var name = (form.querySelector('[name=name]') || {}).value || '';
-      var email = (form.querySelector('[name=email]') || {}).value || '';
-      var subject = (form.querySelector('[name=subject]') || {}).value || 'Website enquiry';
-      var msg = (form.querySelector('[name=message]') || {}).value || '';
-      var body = 'Name: ' + name + '\nEmail: ' + email + '\n\n' + msg;
-      window.location.href = 'mailto:info@cre8bizcom.com?subject=' +
-        encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-      var note = form.querySelector('.form-status');
-      if (note) note.textContent = 'Opening your email app… if nothing happens, email us directly at info@cre8bizcom.com';
-    });
-  }
 })();

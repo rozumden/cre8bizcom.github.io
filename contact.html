@@ -15,9 +15,6 @@
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
-  <a class="brand" href="index.html" aria-label="Creative Business Communications — home">
-    <img src="assets/img/logo.jpg" alt="Creative Business Communications logo">
-  </a>
   <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
   <nav class="nav" id="nav" aria-label="Primary">
     <a data-c="home" href="index.html">Home<span class="dot"></span></a>
@@ -33,11 +30,11 @@
 
   <!-- HERO -->
   <section class="page-hero has-media" style="min-height:56svh">
-    <div class="page-hero-bg" style="background-image:url('assets/img/large/rest-45.jpg')"></div>
+    <div class="page-hero-bg" style="background-image:url('assets/img/large/update/starting-conversation.jpg')"></div>
     <div class="wrap">
       <div class="crumbs"><a href="index.html">Home</a> <span>/</span> <span>Contact</span></div>
       <span class="eyebrow" style="color:#e2e2e2">Contact us</span>
-      <h1 class="mt-1">Let's start a conversation.</h1>
+      <h1 class="mt-1">Let's start<br>a conversation.</h1>
       <p class="lead">For further information, please get in touch in <strong>English or Czech</strong> — whichever you prefer. We'd love to hear from you.</p>
     </div>
   </section>
@@ -45,7 +42,7 @@
 
   <!-- CONTACT GRID -->
   <section class="section" aria-labelledby="reach-h">
-    <div class="wrap contact-grid">
+    <div class="wrap contact-grid" style="grid-template-columns:minmax(0,1fr)">
 
       <div class="reveal">
         <span class="eyebrow">Ways to reach us</span>
@@ -71,44 +68,10 @@
           </div>
           <div class="cmethod">
             <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.5 7-12a7 7 0 10-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.4"/></svg></span>
-            <span><span class="k">Based in</span><span class="v">Prague, Czech Republic</span></span>
+            <span><span class="k">Based near</span><span class="v">Prague, Czech Republic</span></span>
           </div>
         </div>
       </div>
-
-      <form class="cform reveal d1" novalidate>
-        <div class="field">
-          <label for="name">Your name</label>
-          <input id="name" name="name" type="text" autocomplete="name" placeholder="Jane Doe" required>
-        </div>
-        <div class="form-row">
-          <div class="field">
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
-          </div>
-          <div class="field">
-            <label for="who">I am a…</label>
-            <select id="who" name="who">
-              <option>Student</option>
-              <option>Parent of a student</option>
-              <option>Professional</option>
-              <option>Business owner</option>
-              <option>HR / L&amp;D</option>
-              <option>Other</option>
-            </select>
-          </div>
-        </div>
-        <div class="field">
-          <label for="subject">Subject</label>
-          <input id="subject" name="subject" type="text" placeholder="How can we help?" value="Website enquiry">
-        </div>
-        <div class="field">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Tell us a little about your goals and your timeframe…" required></textarea>
-        </div>
-        <button class="btn" type="submit" style="justify-content:center">Send enquiry <span class="arrow">→</span></button>
-        <p class="form-note form-status">This opens your email app pre-filled — or write to us directly at <a href="mailto:info@cre8bizcom.com" style="color:var(--accent-ink)">info@cre8bizcom.com</a>.</p>
-      </form>
 
     </div>
   </section>
@@ -139,7 +102,6 @@
 <footer class="site-footer">
   <div class="wrap footer-top">
     <div class="footer-brand">
-      <div class="fb-logo"><span class="c1">c</span><span class="c2">b</span><span class="c3">c</span> &nbsp;Creative Business Communications</div>
       <p>We help people with English practise, build confidence and grow real business &amp; interpersonal skills — two skills for the price of one.</p>
       <div class="footer-tag">Training to achieve!</div>
     </div>
@@ -153,13 +115,12 @@
       <a href="mailto:info@cre8bizcom.com">info@cre8bizcom.com</a>
       <a href="mailto:soyombo99@yahoo.com">soyombo99@yahoo.com</a>
       <a href="sms:+420774188424">SMS +420 774 188 424</a>
-      <ul><li>Prague, Czech Republic</li><li>English &amp; Czech welcome</li></ul>
+      <ul><li>Near Prague, Czech Republic</li><li>English &amp; Czech welcome</li></ul>
     </div>
   </div>
   <div class="wrap footer-bottom">
-    <span>© <span id="year">2026</span> Creative Business Communications · Founded 2005</span>
-    <span class="dots"><i style="background:#C1121F"></i><i style="background:#006773"></i><i style="background:#2E1A78"></i><i style="background:#808080"></i></span>
-    <span>Not a language school · No teachers · Just real practice</span>
+    <img class="footer-logo" src="assets/img/logo.jpg" alt="Creative Business Communications logo">
+    <span class="footer-legal"><span>© <span id="year">2026</span> Creative Business Communications · Founded 2005</span><span>Not a language school · No teachers · Just real practice</span></span>
   </div>
 </footer>
 
