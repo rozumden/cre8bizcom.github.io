@@ -31,10 +31,11 @@ site/
         ├── large/         1800px web-optimised (heroes + lightbox)  — 78 files
         ├── med/           900px web-optimised (cards + galleries)   — 78 files
         ├── logo.jpg · favicon.png · manifest.json
+        └── update/              final-brief photographs, web-optimised
 ```
 
 ## Notes
-- **All 78 supplied photographs/images are used** and were optimised from ~250 MB down to ~24 MB.
+- The final brief's supplied photographs are web-optimised in `assets/img/med/update/` and `assets/img/large/update/`.
 - Type: Fira Sans Condensed (headings), Prociono (display/quotes), Roboto (body) — from the brief's options; all text ranged left.
 - Fully responsive, keyboard-accessible (slideshow + lightbox), respects `prefers-reduced-motion`, every image has alt text.
-- The enquiry form composes a pre-filled email to `info@cre8bizcom.com`.
+- Contact is intentionally direct: email, alternative email, SMS, or English/Czech conversation.
